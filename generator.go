@@ -282,7 +282,7 @@ func (t *twirp) generateDoc() {
 		t.P()
 		t.P(api.Method)
 		t.P()
-		t.P("### Request")
+		t.P("### Request123123123123")
 		t.P("```javascript")
 		code, _ := jsbeautifier.Beautify(&api.Input, options)
 		t.P(code)
